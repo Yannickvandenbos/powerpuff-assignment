@@ -17,7 +17,7 @@ export default function useEpisode(episodeId: string) {
 
   useEffect(() => {
     fetchResult();
-  }, []);
+  }, [episodeId]);
 
   return {
     episode,

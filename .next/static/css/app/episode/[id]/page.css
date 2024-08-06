@@ -1,0 +1,63 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/episode/[id]/episodepage.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.episodepage_Page__xz9f5 {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  width: 100vw;
+  height: 100vh;
+}
+
+.episodepage_Content__HoyFH {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  overflow-y: auto;
+  color: white;
+  padding-top: 20px;
+  padding-inline: 12px;
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .episodepage_Page__xz9f5 .episodepage_Content__HoyFH p {
+    max-width: 800px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/Hero/hero.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.hero_Hero__hPfIC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 280px;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+}
+.hero_Hero__hPfIC .hero_HeroBlur__cHi1X {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(18, 18, 18, 0) 0%, rgb(18, 18, 18) 100%);
+}
+.hero_Hero__hPfIC .hero_HeroContent__1WKhm {
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin-top: 24px;
+}
+.hero_Hero__hPfIC .hero_HeroContent__1WKhm h1 {
+  font-weight: 900;
+  font-size: 40px;
+}
+.hero_Hero__hPfIC .hero_HeroContent__1WKhm h2 {
+  font-weight: 400;
+}
