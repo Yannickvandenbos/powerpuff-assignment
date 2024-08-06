@@ -1,0 +1,23 @@
+@import "../../styles/main.scss";
+
+.SearchInput {
+  z-index: 1;
+
+  margin-top: $spacing-24;
+
+  width: 70%;
+  max-width: 750px;
+  height: 50px;
+
+  border-radius: 50px;
+
+  border: none;
+
+  padding: $spacing-16 $spacing-22;
+
+  font-size: 18px;
+
+  &:focus {
+    outline: 1px solid darkgray;
+  }
+}

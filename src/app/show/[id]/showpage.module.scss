@@ -1,0 +1,43 @@
+@import "../../../styles/main.scss";
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  width: 100vw;
+  height: 100vh;
+
+  .Content {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    overflow-y: auto;
+
+    color: $white;
+
+    padding-top: $spacing-20;
+    padding-inline: $spacing-12;
+
+    gap: 10px;
+
+    .Episodes {
+      padding-top: $spacing-20;
+
+      h4 {
+        font-size: 30px;
+        margin-bottom: $spacing-12;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .Page {
+    .Content {
+      p {
+        max-width: 800px;
+      }
+    }
+  }
+}

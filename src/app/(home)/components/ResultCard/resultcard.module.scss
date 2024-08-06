@@ -1,0 +1,25 @@
+@import "../../../../styles/main.scss";
+
+.ResultCard {
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .Cover {
+    position: relative;
+    margin-bottom: $spacing-22;
+  }
+
+  .Details {
+    display: flex;
+    flex-direction: column;
+
+    color: $white;
+
+    gap: $spacing-4;
+  }
+}

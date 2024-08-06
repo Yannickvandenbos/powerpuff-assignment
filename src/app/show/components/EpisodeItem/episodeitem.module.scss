@@ -1,0 +1,64 @@
+@import "../../../../styles/main.scss";
+
+.EpisodeItem {
+  text-decoration: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  margin-bottom: $spacing-20;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .Card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #f3e7e9, #e3eeff);
+    border-radius: 12px;
+    color: #333;
+    padding: $spacing-20;
+
+    .SeenChip {
+      margin-top: $spacing-12;
+      padding: $spacing-6 $spacing-20;
+      background-color: $red;
+      border-radius: 50px;
+      margin-left: auto;
+      color: $white;
+
+      font-weight: bold;
+    }
+
+    .Details {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .Title {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .Info {
+        margin: $spacing-8 0;
+        font-size: 18px;
+        color: #555;
+      }
+
+      .Info:first-of-type {
+        margin-top: $spacing-16;
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .EpisodeItem {
+    max-width: 800px;
+  }
+}

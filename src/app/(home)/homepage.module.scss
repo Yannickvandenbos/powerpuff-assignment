@@ -1,0 +1,39 @@
+@import "../../styles/main.scss";
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ResultsContainer {
+  flex: 1;
+  overflow-y: auto;
+
+  .Results {
+    padding-block: $spacing-20;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: $spacing-12;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  .Page {
+    .ResultsContainer {
+      .Results {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        gap: $spacing-24;
+
+        padding-inline: $spacing-24;
+      }
+    }
+  }
+}
